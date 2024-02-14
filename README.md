@@ -1,3 +1,43 @@
+```markdown
+# Excel Search App 📊
+
+This application is a tool for searching specific records across multiple Excel files and displaying the results. It features a GUI for intuitive operation.
+
+## Features 🚀
+
+- Load multiple Excel files
+- Search for records using specified keywords
+- Display search results in a list
+
+## How to Use 📝
+
+1. **Select Excel Files**: Click the "Select Excel file(s)" button to choose the Excel files you want to search through.
+2. **Enter Search Keyword**: Type your search keyword into the search bar.
+3. **Execute Search**: Click the "Search" button to start the search. The search results will be displayed below.
+
+## How to Build 🛠️
+
+To build this application, you need a Go language environment set up.
+
+1. Clone the repository.
+   ```sh
+   git clone https://github.com/Shintaro-run/EXCEL_LIKE_DB.git
+   ```
+2. Move to the application directory.
+   ```sh
+   cd EXCEL_LIKE_DB
+   ```
+3. Build the application.
+   ```sh
+   go build -o my-app ./cmd/my-app
+   ```
+4. Run the application.
+   ```sh
+   ./my-app
+   ```
+
+## Data Structure 📖
+
 /EXCEL_LIKE_DB
     /cmd
         /my-app
@@ -17,24 +57,15 @@
     go.mod
     go.sum
 
-Contact: https://github.com/Shintaro-run
 
-This project includes cute icons throughout its documentation and structure.
 
-Basic directory structure:
-/cmd: Contains the entry points of the programs. The main application file (main.go) is located here.
-/pkg: Contains reusable package code. This includes library code that can be imported by other projects.
-/internal: Contains private application and library code. The code in this directory is not intended to be imported by external projects.
-/api: Contains external API definitions (e.g., Swagger specifications, protocol buffer files).
-/web: Contains web application-specific components (e.g., frontend files).
-/configs: Contains configuration files.
-/scripts: Contains scripts for building, installing, analyzing, etc.
-/test: Contains additional external test applications and test data.
-/docs: Contains project documentation (e.g., design documents, user guides).
+## Contact 📩
 
-Common files:
-README.md: Describes the project overview, build instructions, and usage.
-LICENSE: Contains the project's license information.
-go.mod: Manages module dependencies (used with Go Modules).
-go.sum: Contains checksums for ensuring specific versions of dependencies listed in go.mod.
-# EXCEL_LIKE_DB
+If you have any questions or feedback, please feel free to contact me on [GitHub](https://github.com/Shintaro-run).
+
+
+
+---
+Thank you for using this app! 🌟
+```
+
