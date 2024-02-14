@@ -1,4 +1,3 @@
-```markdown
 # Excel Search App 📊
 
 This application is a tool for searching specific records across multiple Excel files and displaying the results. It features a GUI for intuitive operation.
@@ -26,7 +25,7 @@ To build this application, you need a Go language environment set up.
 2. Move to the application directory.
    ```sh
    cd EXCEL_LIKE_DB
-   ```
+    ```
 3. Build the application.
    ```sh
    go build -o my-app ./cmd/my-app
@@ -38,24 +37,25 @@ To build this application, you need a Go language environment set up.
 
 ## Data Structure 📖
 
-/EXCEL_LIKE_DB
-    /cmd
-        /my-app
-            main.go
-    /pkg
-        /my-package
-    /internal
-        /my-internal-code
-    /api
-    /web
-    /configs
-    /scripts
-    /test
-    /docs
-    README.md
-    LICENSE
-    go.mod
-    go.sum
+EXCEL_LIKE_DB
+├── api
+├── cmd
+│   └── my-app
+│       └── main.go
+├── configs
+├── docs
+├── internal
+│   └── my-internal-code
+├── pkg
+│   └── my-package
+├── scripts
+├── test
+├── web
+├── .gitignore
+├── LICENSE
+├── README.md
+├── go.mod
+└── go.sum
 
 
 
@@ -67,5 +67,5 @@ If you have any questions or feedback, please feel free to contact me on [GitHub
 
 ---
 Thank you for using this app! 🌟
-```
+
 
